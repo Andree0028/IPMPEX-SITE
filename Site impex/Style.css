@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #0f0d0d;
+}
+
+header {
+    position: relative;
+    background: url('background-station.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(187, 15, 15, 0.5);
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: #4CAF50;
+}
+
+nav.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav.navigation li {
+    margin: 10px 15px;
+}
+
+nav.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav.navigation a:hover {
+    color: #4CAF50;
+}
+
+main {
+    padding: 60px 20px;
+    background-color: #222;
+}
+
+.section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.section h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    font-size: 1.1em;
+}
+
+.section ul {
+    list-style: inside square;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
